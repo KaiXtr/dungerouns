@@ -39,6 +39,7 @@ stairs=false
 move=false
 battle=false
 fall=0
+blink=0
 image_speed=0.1
 alarm[0]=1
 alarm[8]=30
@@ -362,91 +363,97 @@ alarm[0]=60
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if sprite_index!=Spr_hero_bike{
-if global.pause=2{image_speed=0}
+            <string>if blink &gt; 0 {
+    image_alpha = blink % 2
+    blink --
+}else
+    image_alpha = 1
 
-if pose&lt;4 and move=false and wait=0 and battle=false
-{if hspeed&gt;0{image_xscale=+1}
-if hspeed&lt;0{image_xscale=-1}}
-if pose=5
-{if hspeed&gt;0{image_yscale=+1}
-if hspeed&lt;0{image_yscale=-1}}
-if battle=true
-{if mouse_x&gt;x{image_xscale=+1}
-if mouse_x&lt;x{image_xscale=-1}}
-
-if pose&lt;3{
-image_speed=0.1
-
-if sprite_index!=Spr_hero_wall and sprite_index!=Spr_hero_damage{
-if vspeed=0{
-
-if move=false{
-if hspeed=0{
-if weapon_wait=0
-{if wait&lt;10{sprite_index=Spr_hero_stop}
-if wait=10{sprite_index=Spr_hero_wait}}
-else{sprite_index=Spr_hero_shot}}
-
-
-if hspeed!=0 and wait=0
-{if pose=1{sprite_index=Spr_hero_walk;image_speed=0.4}
-if pose=2{sprite_index=Spr_hero_run;image_speed=0.5}}
-}
-
-if move=true{
-sprite_index=Spr_hero_push
-if hspeed=0{image_speed=0}
-else{image_speed=0.4}
-}
-}
-
-if vspeed!=0{
-if vspeed&lt;0
-{if pose=1{sprite_index=Spr_hero_jump}
-if pose=2{sprite_index=Spr_hero_spin;image_speed=0.8}}
-if vspeed&gt;0{sprite_index=Spr_hero_fall}
-}}
-
-mask_index=Spr_hero_mask1
-}
-
-if pose=3{
-if hspeed=0
-{if battle=true{sprite_index=Spr_hero_shot;image_speed=0}
-if battle=false{sprite_index=Spr_hero_squat;image_speed=0}}
-
-if hspeed!=0{
-if battle=true{sprite_index=Spr_hero_shot;image_speed=0.1}
-
-if battle=false{
-image_speed=0.1
-if hspeed=+1 or hspeed=-1
-{sprite_index=Spr_hero_squat}
-else{
-sprite_index=Spr_hero_glide
-if hspeed&gt;+1{hspeed-=0.1}
-if hspeed&lt;-1{hspeed+=0.1}}
-}}
-
-mask_index=Spr_hero_mask2
-}
-
-if pose=4{
-if stairs=false{sprite_index=Spr_hero_climb}
-if stairs=true{sprite_index=Spr_hero_stairs}
-if vspeed=0{image_speed=0}
-if vspeed!=0{image_speed=0.1}
-}
-
-if pose=5{
-image_speed=0.1
-if hspeed=0{sprite_index=Spr_hero_swin;image_angle=0;image_yscale=1;mask_index=Spr_hero_mask1}
-if hspeed!=0{sprite_index=Spr_hero_dive;image_angle=direction;mask_index=Spr_hero_mask3}
-}
-
-if pose=6
-{sprite_index=Spr_hero_hide;mask_index=Spr_hero_mask2}
+if sprite_index!=Spr_hero_bike{
+    if global.pause=2{image_speed=0}
+    
+    if pose&lt;4 and move=false and wait=0 and battle=false
+    {if hspeed&gt;0{image_xscale=+1}
+    if hspeed&lt;0{image_xscale=-1}}
+    if pose=5
+    {if hspeed&gt;0{image_yscale=+1}
+    if hspeed&lt;0{image_yscale=-1}}
+    if battle=true
+    {if mouse_x&gt;x{image_xscale=+1}
+    if mouse_x&lt;x{image_xscale=-1}}
+    
+    if pose&lt;3{
+    image_speed=0.1
+    
+    if sprite_index!=Spr_hero_wall and sprite_index!=Spr_hero_damage{
+    if vspeed=0{
+    
+    if move=false{
+    if hspeed=0{
+    if weapon_wait=0
+    {if wait&lt;10{sprite_index=Spr_hero_stop}
+    if wait=10{sprite_index=Spr_hero_wait}}
+    else{sprite_index=Spr_hero_shot}}
+    
+    
+    if hspeed!=0 and wait=0
+    {if pose=1{sprite_index=Spr_hero_walk;image_speed=0.4}
+    if pose=2{sprite_index=Spr_hero_run;image_speed=0.5}}
+    }
+    
+    if move=true{
+    sprite_index=Spr_hero_push
+    if hspeed=0{image_speed=0}
+    else{image_speed=0.4}
+    }
+    }
+    
+    if vspeed!=0{
+    if vspeed&lt;0
+    {if pose=1{sprite_index=Spr_hero_jump}
+    if pose=2{sprite_index=Spr_hero_spin;image_speed=0.8}}
+    if vspeed&gt;0{sprite_index=Spr_hero_fall}
+    }}
+    
+    mask_index=Spr_hero_mask1
+    }
+    
+    if pose=3{
+    if hspeed=0
+    {if battle=true{sprite_index=Spr_hero_shot;image_speed=0}
+    if battle=false{sprite_index=Spr_hero_squat;image_speed=0}}
+    
+    if hspeed!=0{
+    if battle=true{sprite_index=Spr_hero_shot;image_speed=0.1}
+    
+    if battle=false{
+    image_speed=0.1
+    if hspeed=+1 or hspeed=-1
+    {sprite_index=Spr_hero_squat}
+    else{
+    sprite_index=Spr_hero_glide
+    if hspeed&gt;+1{hspeed-=0.1}
+    if hspeed&lt;-1{hspeed+=0.1}}
+    }}
+    
+    mask_index=Spr_hero_mask2
+    }
+    
+    if pose=4{
+    if stairs=false{sprite_index=Spr_hero_climb}
+    if stairs=true{sprite_index=Spr_hero_stairs}
+    if vspeed=0{image_speed=0}
+    if vspeed!=0{image_speed=0.1}
+    }
+    
+    if pose=5{
+    image_speed=0.1
+    if hspeed=0{sprite_index=Spr_hero_swin;image_angle=0;image_yscale=1;mask_index=Spr_hero_mask1}
+    if hspeed!=0{sprite_index=Spr_hero_dive;image_angle=direction;mask_index=Spr_hero_mask3}
+    }
+    
+    if pose=6
+    {sprite_index=Spr_hero_hide;mask_index=Spr_hero_mask2}
 }
 </string>
           </argument>
@@ -953,7 +960,7 @@ pose=1
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>0.8</string>
           </argument>
         </arguments>
       </action>
@@ -1118,14 +1125,14 @@ pose=1
           <argument>
             <kind>1</kind>
             <string>if pose!=5{
-audio_play_sound(Sou_Splash,10,false)
-instance_create(x,y-11,Obj_splash)
-alarm[3]=1
-alarm[6]=600
-alarm[7]=1
-pose=5
-fall=-1
-image_xscale=1
+    audio_play_sound(Sou_Splash,10,false)
+    instance_create(x,y,Obj_splash)
+    alarm[3]=1
+    alarm[6]=600
+    alarm[7]=1
+    pose=5
+    fall=-1
+    image_xscale=1
 }
 </string>
           </argument>
@@ -1828,30 +1835,37 @@ hspeed=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if stoph=true and vspeed&gt;0
-{stoph=false
-sprite_index=Spr_hero_stop
-if battle=false{pose=1}
-hspeed=0}
+            <string>// Personagem fica parado após o salto após terminar escalada
+if stoph=true and vspeed&gt;0 {
+    stoph=false
+    sprite_index=Spr_hero_stop
+    if battle=false
+        pose=1
+    hspeed=0
+}
 vspeed=0
 
+// Ao cair
 if fall&gt;70{
-if global.life&gt;0
-{global.liferedux-=15
-stoph=true}
-
-if global.life&lt;=0{
-global.life=-1
-depth=-1000
-background_visible[7]=true
-sprite_index=Spr_hero_death
-Obj_HUD.ptxt='minha perna!'
-audio_stop_all()
-audio_play_sound(Sou_Death,10,false)
-global.pause=1
-alarm[5]=1
-alarm[4]=30
-hspeed=0}}
+    if global.life&gt;0 {
+        global.liferedux-=15
+        blink = 100
+        stoph=true
+    }
+    if global.life&lt;=0{
+        global.life=-1
+        depth=-1000
+        background_visible[7]=true
+        sprite_index=Spr_hero_death
+        Obj_HUD.ptxt='minha perna!'
+        audio_stop_all()
+        audio_play_sound(Sou_Death,10,false)
+        global.pause=1
+        alarm[5]=1
+        alarm[4]=30
+        hspeed=0
+    }
+}
 
 fall=-1
 </string>
@@ -1877,6 +1891,20 @@ fall=-1
             <string>image_xscale=-1</string>
           </argument>
         </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
       <action>
         <libid>1</libid>
@@ -1928,6 +1956,20 @@ fall=-1
       </action>
       <action>
         <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>408</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -1942,9 +1984,23 @@ fall=-1
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>image_xscale=1</string>
+            <string>image_xscale==1</string>
           </argument>
         </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
       <action>
         <libid>1</libid>
@@ -1993,6 +2049,20 @@ fall=-1
             <string>0</string>
           </argument>
         </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
     <event eventtype="4" ename="Obj_gate">
@@ -2533,28 +2603,31 @@ global.xp=0}
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if sprite_index!=Spr_hero_damage{
-if other.life&gt;0{
-if global.life&gt;0
-{global.liferedux-=other.damage
-sprite_index=Spr_hero_damage
-stoph=true
-y-=3
-vspeed=-12
-hspeed=3*-image_xscale}
-
-if global.life=0
-{global.life=-1
-depth=-1000
-background_visible[7]=true
-sprite_index=Spr_hero_death
-Obj_HUD.ptxt='sai de perto da cobra'
-audio_play_sound(Sou_Death,10,false)
-global.pause=1
-alarm[5]=1
-hspeed=0}
-alarm[4]=30
-}}
+            <string>if sprite_index != Spr_hero_damage and blink == 0{
+    if other.life&gt;0{
+        if global.life&gt;0 {
+            global.liferedux-=other.damage
+            sprite_index=Spr_hero_damage
+            blink = 200
+            stoph=true
+            y-=3
+            vspeed=-12
+            hspeed=3*-image_xscale
+        }
+        if global.life=0 {
+            global.life=-1
+            depth=-1000
+            background_visible[7]=true
+            sprite_index=Spr_hero_death
+            Obj_HUD.ptxt='Sai de perto da cobra'
+            audio_play_sound(Sou_Death,10,false)
+            global.pause=1
+            alarm[5]=1
+            hspeed=0
+        }
+        alarm[4]=30
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -2578,56 +2651,60 @@ alarm[4]=30
           <argument>
             <kind>1</kind>
             <string>if sprite_index!=Spr_hero_damage or sprite_index!=Spr_hero_death{
-if other.shoter!=Obj_hero{
-
-if pose!=6{
-if global.life&gt;0
-{global.liferedux-=2
-i=instance_create(other.x,other.y,Obj_blood)
-i.image_xscale=image_xscale
-sprite_index=Spr_hero_damage
-stoph=true
-x-=image_xscale*3
-instance_destroy(other)}
-
-if global.life&lt;=0
-{global.life=-1
-depth=-1000
-background_visible[7]=true
-sprite_index=Spr_hero_death
-Obj_HUD.ptxt='não se jogue no campo pra morrer'
-audio_stop_all()
-audio_play_sound(Sou_Death,10,false)
-instance_destroy(other)
-global.pause=1
-alarm[5]=1
-hspeed=0}
-alarm[4]=30}
-
-if pose=6 and weapon_wait&gt;0{
-if global.life&gt;0
-{global.liferedux-=2
-i=instance_create(other.x,other.y,Obj_blood)
-i.image_xscale=image_xscale
-sprite_index=Spr_hero_damage
-stoph=true
-x-=image_xscale*3
-instance_destroy(other)}
-
-if global.life&lt;=0
-{global.life=-1
-depth=-1000
-background_visible[7]=true
-sprite_index=Spr_hero_death
-Obj_HUD.ptxt='espere o momento certo'
-audio_stop_all()
-audio_play_sound(Sou_Death,10,false)
-instance_destroy(other)
-global.pause=1
-alarm[5]=1
-hspeed=0}
-alarm[4]=30}
-}
+    if other.shoter!=Obj_hero{
+    
+        if pose!=6{
+            if global.life&gt;0
+            {global.liferedux-=2
+            i=instance_create(other.x,other.y,Obj_blood)
+            i.image_xscale=image_xscale
+            sprite_index=Spr_hero_damage
+            stoph=true
+            x-=image_xscale*3
+            instance_destroy(other)}
+            
+            if global.life&lt;=0
+            {global.life=-1
+            depth=-1000
+            background_visible[7]=true
+            sprite_index=Spr_hero_death
+            Obj_HUD.ptxt='não se jogue no campo pra morrer'
+            audio_stop_all()
+            audio_play_sound(Sou_Death,10,false)
+            instance_destroy(other)
+            global.pause=1
+            alarm[5]=1
+            hspeed=0}
+            alarm[4]=30
+        }
+    
+        if pose=6 and weapon_wait&gt;0{
+            if global.life&gt;0 {
+                global.liferedux-=2
+                i=instance_create(other.x,other.y,Obj_blood)
+                i.image_xscale=image_xscale
+                sprite_index=Spr_hero_damage
+                stoph=true
+                x-=image_xscale*3
+                instance_destroy(other)
+            }
+            
+            if global.life&lt;=0 {
+                global.life=-1
+                depth=-1000
+                background_visible[7]=true
+                sprite_index=Spr_hero_death
+                Obj_HUD.ptxt='espere o momento certo'
+                audio_stop_all()
+                audio_play_sound(Sou_Death,10,false)
+                instance_destroy(other)
+                global.pause=1
+                alarm[5]=1
+                hspeed=0
+            }
+            alarm[4]=30
+        }
+    }
 }
 </string>
           </argument>

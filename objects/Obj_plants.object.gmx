@@ -222,13 +222,21 @@ instance_create(x+random_range(-1,+1),y+random_range(-1,+1),Obj_leaves)
             <string>xx=0
 yy=0
 repeat(ds_grid_height(global.inv)){
-repeat(ds_grid_width(global.inv)){
-if ds_grid_get(global.inv,xx,yy)=0
-{ds_grid_add(global.inv,xx,yy,image_index+1)
-Obj_HUD.invicon=image_index+1;Obj_HUD.invtxt='obteve erva';Obj_HUD.alarm[2]=1
-show_debug_message(string(xx)+' - '+string(yy))
-break}
-xx+=1}xx=0;yy+=1}
+    repeat(ds_grid_width(global.inv)){
+        if ds_grid_get(global.inv,xx,yy)=0{
+            ds_grid_add(global.inv,xx,yy,image_index+1)
+            cursor_sprite=Spr_aim
+            Obj_HUD.invicon=image_index+1
+            Obj_HUD.invtxt='obteve erva'
+            Obj_HUD.alarm[2]=1
+            show_debug_message(string(xx)+' - '+string(yy))
+            break
+        }
+        xx+=1
+    }
+    xx=0
+    yy+=1
+}
 
 instance_destroy()
 </string>

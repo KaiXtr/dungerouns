@@ -68,6 +68,50 @@ alarm[0]=1}
         </arguments>
       </action>
     </event>
+    <event eventtype="6" enumb="50">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if global.pause=3 and letters==string_length(text[page-1]){
+    if page=pages{
+        global.pause=0
+        if boss=true{
+        Obj_HUD.fade=0
+        Obj_HUD.unfade=0
+        audio_stop_all()
+        audio_play_sound(Sou_Incoming,10,false)
+        global.checkpointrm=Rom_vilage1
+        global.checkpointx=462
+        global.checkpointy=253
+        Obj_HUD.alarm[0]=1
+        Obj_HUD.alarm[5]=60}
+        instance_destroy()
+    }
+    if page&lt;pages {
+        page+=1
+        letters=0
+        output=''
+        alarm[0]=1
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
@@ -133,22 +177,26 @@ draw_text(view_xview[0]+30,view_yview[0]+30,output)
           <argument>
             <kind>1</kind>
             <string>if global.pause=3{
-if page=pages{
-global.pause=0
-if boss=true{
-Obj_HUD.fade=0
-Obj_HUD.unfade=0
-audio_stop_all()
-audio_play_sound(Sou_Incoming,10,false)
-global.checkpointrm=Rom_vilage1
-global.checkpointx=462
-global.checkpointy=253
-Obj_HUD.alarm[0]=1
-Obj_HUD.alarm[5]=60}
-instance_destroy()}
-
-if page&lt;pages
-{page+=1;letters=0;output='';alarm[0]=1}
+    if page=pages{
+        global.pause=0
+        if boss=true{
+        Obj_HUD.fade=0
+        Obj_HUD.unfade=0
+        audio_stop_all()
+        audio_play_sound(Sou_Incoming,10,false)
+        global.checkpointrm=Rom_vilage1
+        global.checkpointx=462
+        global.checkpointy=253
+        Obj_HUD.alarm[0]=1
+        Obj_HUD.alarm[5]=60}
+        instance_destroy()
+    }
+    if page&lt;pages {
+        page+=1
+        letters=0
+        output=''
+        alarm[0]=1
+    }
 }
 </string>
           </argument>

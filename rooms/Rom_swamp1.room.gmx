@@ -199,7 +199,7 @@
     <instance objName="Obj_plants" x="3993" y="176" name="inst_AAFB2A34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_plants" x="3267" y="264" name="inst_98532B6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_plants" x="3146" y="396" name="inst_C5D4F3B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_weaponcrate" x="2046" y="396" name="inst_4A1879D2" locked="0" code="item=Obj_revolver&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_weaponcrate" x="2046" y="396" name="inst_4A1879D2" locked="0" code="item=Obj_revolver" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_solid" x="1188" y="935" name="inst_9FCB7D95" locked="0" code="" scaleX="7.77272748947144" scaleY="1.81818187236786" colour="4294967295" rotation="0"/>
     <instance objName="Obj_solid" x="1166" y="1023" name="inst_0EAFBE4B" locked="0" code="" scaleX="6.1399998664856" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="Obj_solid" x="858" y="1023" name="inst_94C852A6" locked="0" code="" scaleX="12" scaleY="7.86363649368286" colour="4294967295" rotation="0"/>

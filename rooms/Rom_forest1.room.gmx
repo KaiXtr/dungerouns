@@ -56,7 +56,7 @@
     <instance objName="Obj_solid" x="4906" y="484" name="inst_3664EA41" locked="0" code="" scaleX="23" scaleY="0.869565188884735" colour="4294967295" rotation="0"/>
     <instance objName="Obj_portal" x="0" y="308" name="inst_B8163028" locked="0" code="goto=Rom_waterfall1&#xA;portalx=2959&#xA;portaly=231&#xA;" scaleX="-2.66666674613953" scaleY="19.7999992370605" colour="4294967295" rotation="0"/>
     <instance objName="Obj_portal" x="0" y="88" name="inst_55C751CE" locked="0" code="goto=Rom_waterfall1&#xA;portalx=2959&#xA;portaly=99&#xA;" scaleX="-2.66666674613953" scaleY="19.7999992370605" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_portal" x="5016" y="286" name="inst_E33E58B5" locked="0" code="goto=Rom_vilage1&#xA;portalx=44&#xA;portaly=275&#xA;song=Sou_Village&#xA;" scaleX="-2.66666674613953" scaleY="19.7999992370605" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_portal" x="5016" y="286" name="inst_E33E58B5" locked="0" code="goto=Rom_vilage1&#xA;portalx=44&#xA;portaly=275&#xA;song=Sou_Village" scaleX="-2.66666674613953" scaleY="19.7999992370605" colour="4294967295" rotation="0"/>
     <instance objName="Obj_platform" x="77" y="286" name="inst_D4FAFD32" locked="0" code="" scaleX="18.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obj_solid" x="143" y="484" name="inst_6BB61C13" locked="0" code="" scaleX="22.5" scaleY="0.739130437374115" colour="4294967295" rotation="0"/>
     <instance objName="Obj_solid" x="5082" y="396" name="inst_F97916CD" locked="0" code="" scaleX="0.523809552192688" scaleY="9.9523811340332" colour="4294967295" rotation="0"/>
@@ -74,13 +74,13 @@
     <instance objName="Obj_platform" x="759" y="286" name="inst_C7EBDB3A" locked="0" code="" scaleX="15" scaleY="1.04761910438538" colour="4294967295" rotation="0"/>
     <instance objName="Obj_platform" x="1573" y="264" name="inst_53C7DAEE" locked="0" code="" scaleX="3" scaleY="1.04761910438538" colour="4294967295" rotation="0"/>
     <instance objName="Obj_platform" x="1287" y="286" name="inst_7C07FF28" locked="0" code="" scaleX="22.7727279663086" scaleY="1.04545450210571" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_platform" x="2299" y="264" name="inst_E1D2D41A" locked="0" code="" scaleX="5" scaleY="1.04999995231628" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_platform" x="2299" y="308" name="inst_E1D2D41A" locked="0" code="" scaleX="5" scaleY="1.04999995231628" colour="4294967295" rotation="0"/>
     <instance objName="Obj_platform" x="2915" y="264" name="inst_6A8F6289" locked="0" code="" scaleX="24.7700004577637" scaleY="0.809523820877075" colour="4294967295" rotation="0"/>
     <instance objName="Obj_platform" x="4048" y="220" name="inst_E379517C" locked="0" code="" scaleX="3.86363625526428" scaleY="1.04545450210571" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_platform" x="3707" y="242" name="inst_EAD4F4B2" locked="0" code="" scaleX="13" scaleY="1.04545450210571" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_platform" x="3707" y="275" name="inst_EAD4F4B2" locked="0" code="" scaleX="13" scaleY="1.04545450210571" colour="4294967295" rotation="0"/>
     <instance objName="Obj_platform" x="4268" y="220" name="inst_F92A69BC" locked="0" code="" scaleX="4.1904764175415" scaleY="1.04761910438538" colour="4294967295" rotation="0"/>
     <instance objName="Obj_platform" x="4499" y="220" name="inst_A8EEFD11" locked="0" code="" scaleX="7" scaleY="1.04761910438538" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_climb" x="3608" y="330" name="inst_EC9645C7" locked="0" code="" scaleX="3.95000004768372" scaleY="8.90909099578857" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_climb" x="3608" y="352" name="inst_EC9645C7" locked="0" code="" scaleX="4" scaleY="6.95454549789429" colour="4294967295" rotation="0"/>
     <instance objName="Obj_waterfall" x="4312" y="231" name="inst_20F7C797" locked="0" code="" scaleX="5.2380952835083" scaleY="23.0476188659668" colour="4294967295" rotation="0"/>
     <instance objName="Obj_waterfall" x="4092" y="231" name="inst_3633D6A5" locked="0" code="" scaleX="6.2857141494751" scaleY="23.5" colour="4294967295" rotation="0"/>
     <instance objName="Obj_water" x="759" y="638" name="inst_5E33AD25" locked="0" code="" scaleX="35.0952377319336" scaleY="8.95454502105713" colour="4294967295" rotation="0"/>
@@ -89,6 +89,23 @@
     <instance objName="Obj_solid" x="1155" y="627" name="inst_A6CEAD16" locked="0" code="" scaleX="1" scaleY="8.68181800842285" colour="4294967295" rotation="0"/>
     <instance objName="Obj_solid" x="748" y="715" name="inst_0136993B" locked="0" code="" scaleX="36.1428565979004" scaleY="1.27272725105286" colour="4294967295" rotation="0"/>
     <instance objName="Obj_climb" x="770" y="385" name="inst_52CE4924" locked="0" code="" scaleX="1.81818187236786" scaleY="9.45454502105713" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_solid" x="2266" y="495" name="inst_E8A92164" locked="0" code="" scaleX="28" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_snake" x="1694" y="451" name="inst_19B20355" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_snake" x="1430" y="451" name="inst_B0D2F5B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_snake" x="1265" y="451" name="inst_381F8632" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_snake" x="1375" y="253" name="inst_B0E7353C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_snake" x="2684" y="396" name="inst_49187BAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_snake" x="2948" y="407" name="inst_0DA2923C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_snake" x="3476" y="418" name="inst_F4835880" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_snake" x="3762" y="242" name="inst_0789D507" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_soldier" x="4257" y="176" name="inst_45257885" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_soldier" x="3938" y="396" name="inst_3AAD985E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_soldier" x="3003" y="220" name="inst_CCD1276E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_weaponcrate" x="2310" y="473" name="inst_F44BC6CA" locked="0" code="item=Obj_revolver&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_soldier" x="2288" y="275" name="inst_99C5CAC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_health" x="4235" y="418" name="inst_BFF5E7E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_ammo" x="3817" y="418" name="inst_1CB48982" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obj_platform" x="3927" y="253" name="inst_4A500AA5" locked="0" code="" scaleX="2.61904764175415" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Til_swamp" x="0" y="484" w="22" h="22" xo="22" yo="0" id="10047743" name="inst_24F6D774" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1058,25 +1075,13 @@
     <tile bgName="Til_swamp" x="1452" y="418" w="22" h="22" xo="22" yo="22" id="10048911" name="inst_6328B8D9" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="1430" y="418" w="22" h="22" xo="22" yo="22" id="10048912" name="inst_2DEC958C" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="1430" y="396" w="22" h="22" xo="22" yo="22" id="10048913" name="inst_0715A45C" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2244" y="264" w="22" h="22" xo="22" yo="22" id="10048914" name="inst_6C658EC8" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2266" y="264" w="22" h="22" xo="22" yo="22" id="10048915" name="inst_0F9B204A" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2288" y="264" w="22" h="22" xo="22" yo="22" id="10048918" name="inst_4A852EA6" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2310" y="264" w="22" h="22" xo="22" yo="22" id="10048919" name="inst_0FDD6283" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2332" y="264" w="22" h="22" xo="22" yo="22" id="10048920" name="inst_6B4AA04F" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2332" y="286" w="22" h="22" xo="22" yo="22" id="10048921" name="inst_6F158009" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2310" y="286" w="22" h="22" xo="22" yo="22" id="10048922" name="inst_9F341675" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2288" y="286" w="22" h="22" xo="22" yo="22" id="10048923" name="inst_64EAFD98" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2266" y="286" w="22" h="22" xo="22" yo="22" id="10048924" name="inst_7BC5BA6C" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2244" y="286" w="22" h="22" xo="22" yo="22" id="10048925" name="inst_8DCEC720" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2244" y="308" w="22" h="22" xo="22" yo="22" id="10048926" name="inst_648F5168" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2244" y="330" w="22" h="22" xo="22" yo="22" id="10048927" name="inst_ED52ADF9" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2244" y="352" w="22" h="22" xo="22" yo="22" id="10048928" name="inst_E9735CF0" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2332" y="352" w="22" h="22" xo="22" yo="22" id="10048932" name="inst_DEE2F7F5" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2288" y="308" w="22" h="22" xo="22" yo="22" id="10048936" name="inst_12EFFAAE" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2266" y="308" w="22" h="22" xo="22" yo="22" id="10048937" name="inst_C289C9A3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2266" y="330" w="22" h="22" xo="22" yo="22" id="10048938" name="inst_B623FC7A" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2310" y="330" w="22" h="22" xo="22" yo="22" id="10048940" name="inst_955B7C8A" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2310" y="308" w="22" h="22" xo="22" yo="22" id="10048941" name="inst_3E904FE8" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2332" y="308" w="22" h="22" xo="22" yo="22" id="10048942" name="inst_CD8C0D69" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2332" y="330" w="22" h="22" xo="22" yo="22" id="10048943" name="inst_81754D1E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2288" y="330" w="22" h="22" xo="22" yo="22" id="10048944" name="inst_8E0398E7" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1097,9 +1102,7 @@
     <tile bgName="Til_swamp" x="2288" y="374" w="22" h="22" xo="22" yo="22" id="10048968" name="inst_EA3285E8" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2288" y="418" w="22" h="22" xo="22" yo="22" id="10048969" name="inst_0DC40373" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2310" y="484" w="22" h="22" xo="22" yo="22" id="10048973" name="inst_C2617038" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2310" y="462" w="22" h="22" xo="22" yo="22" id="10048974" name="inst_62510207" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2288" y="440" w="22" h="22" xo="22" yo="22" id="10048975" name="inst_D21D727B" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2288" y="462" w="22" h="22" xo="22" yo="22" id="10048976" name="inst_D4B09B58" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2288" y="484" w="22" h="22" xo="22" yo="22" id="10048977" name="inst_A538FAEF" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2288" y="638" w="22" h="22" xo="22" yo="22" id="10048984" name="inst_13B63AD8" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2288" y="682" w="22" h="22" xo="22" yo="22" id="10048986" name="inst_9B5722DD" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -2205,10 +2208,6 @@
     <tile bgName="Til_swamp" x="4554" y="286" w="22" h="22" xo="22" yo="22" id="10050227" name="inst_01A3315D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="4554" y="308" w="22" h="22" xo="22" yo="22" id="10050228" name="inst_E09F889D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="4554" y="330" w="22" h="22" xo="22" yo="22" id="10050229" name="inst_327BF4FF" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3564" y="242" w="22" h="22" xo="88" yo="0" id="10050242" name="inst_FDD730C1" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3586" y="242" w="22" h="22" xo="88" yo="0" id="10050243" name="inst_E102245D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3608" y="242" w="22" h="22" xo="88" yo="0" id="10050244" name="inst_DD28179E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3630" y="242" w="22" h="22" xo="88" yo="0" id="10050245" name="inst_48523E64" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3630" y="264" w="22" h="22" xo="88" yo="0" id="10050246" name="inst_BF08E564" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3630" y="286" w="22" h="22" xo="88" yo="0" id="10050247" name="inst_0630567F" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3630" y="308" w="22" h="22" xo="88" yo="0" id="10050248" name="inst_5690C8E8" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -2241,11 +2240,6 @@
     <tile bgName="Til_swamp" x="3586" y="330" w="22" h="22" xo="88" yo="0" id="10050275" name="inst_6F2D2E52" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3586" y="308" w="22" h="22" xo="88" yo="0" id="10050276" name="inst_0F119E3E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3586" y="286" w="22" h="22" xo="88" yo="0" id="10050277" name="inst_E7A667F8" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3564" y="220" w="22" h="22" xo="0" yo="22" id="10050278" name="inst_AF8034D3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3586" y="220" w="22" h="22" xo="0" yo="22" id="10050279" name="inst_5AE674DF" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3608" y="220" w="22" h="22" xo="0" yo="22" id="10050280" name="inst_A3B8EDBB" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3630" y="220" w="22" h="22" xo="0" yo="22" id="10050281" name="inst_648A2619" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3652" y="242" w="22" h="22" xo="22" yo="22" id="10050282" name="inst_3B54DE08" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3652" y="264" w="22" h="22" xo="22" yo="22" id="10050283" name="inst_AA4A661B" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3652" y="286" w="22" h="22" xo="22" yo="22" id="10050284" name="inst_4CE90281" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3652" y="308" w="22" h="22" xo="22" yo="22" id="10050285" name="inst_2C0C931F" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -2256,15 +2250,7 @@
     <tile bgName="Til_swamp" x="3652" y="330" w="22" h="22" xo="22" yo="22" id="10050294" name="inst_A1D35C0E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3674" y="286" w="22" h="22" xo="22" yo="22" id="10050296" name="inst_072F3F70" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3674" y="264" w="22" h="22" xo="22" yo="22" id="10050297" name="inst_3AA31E4F" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3674" y="242" w="22" h="22" xo="22" yo="22" id="10050298" name="inst_82C03048" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3696" y="242" w="22" h="22" xo="22" yo="22" id="10050299" name="inst_5051B4C2" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3718" y="242" w="22" h="22" xo="22" yo="22" id="10050300" name="inst_F3AEB441" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3740" y="242" w="22" h="22" xo="22" yo="22" id="10050301" name="inst_D99F89AA" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3762" y="242" w="22" h="22" xo="22" yo="22" id="10050302" name="inst_1F2F02D3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3784" y="242" w="22" h="22" xo="22" yo="22" id="10050303" name="inst_1BA36FE6" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3806" y="242" w="22" h="22" xo="22" yo="22" id="10050304" name="inst_E8FD66C5" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3806" y="264" w="22" h="22" xo="22" yo="22" id="10050305" name="inst_D449175D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3828" y="242" w="22" h="22" xo="22" yo="22" id="10050307" name="inst_75309061" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3828" y="264" w="22" h="22" xo="22" yo="22" id="10050308" name="inst_417E7D5A" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3828" y="286" w="22" h="22" xo="22" yo="22" id="10050309" name="inst_8287E83F" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3806" y="286" w="22" h="22" xo="22" yo="22" id="10050310" name="inst_92C1B380" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -2510,6 +2496,77 @@
     <tile bgName="Til_swamp" x="770" y="418" w="22" h="22" xo="88" yo="0" id="10065033" name="inst_102E2A31" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="770" y="440" w="22" h="22" xo="88" yo="0" id="10065034" name="inst_36AF4F9F" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="770" y="462" w="22" h="22" xo="88" yo="0" id="10065035" name="inst_FA7A31CB" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="1958" y="462" w="22" h="22" xo="0" yo="22" id="10066264" name="inst_BE123DAA" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="1980" y="462" w="22" h="22" xo="0" yo="22" id="10066265" name="inst_68CD8F95" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2002" y="462" w="22" h="22" xo="0" yo="22" id="10066266" name="inst_8B995B81" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2024" y="462" w="22" h="22" xo="0" yo="22" id="10066267" name="inst_1D472647" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2046" y="462" w="22" h="22" xo="0" yo="22" id="10066268" name="inst_3820DF9C" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="462" w="22" h="22" xo="0" yo="22" id="10066269" name="inst_74C8AE8D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2090" y="462" w="22" h="22" xo="0" yo="22" id="10066270" name="inst_0D588196" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2112" y="462" w="22" h="22" xo="0" yo="22" id="10066271" name="inst_F3F424F7" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2134" y="462" w="22" h="22" xo="0" yo="22" id="10066272" name="inst_A5D35926" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2156" y="462" w="22" h="22" xo="0" yo="22" id="10066273" name="inst_33748106" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2178" y="462" w="22" h="22" xo="0" yo="22" id="10066274" name="inst_9CF52DB3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2200" y="462" w="22" h="22" xo="0" yo="22" id="10066275" name="inst_7CBAE119" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2222" y="462" w="22" h="22" xo="0" yo="22" id="10066283" name="inst_22E8F904" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2244" y="462" w="22" h="22" xo="0" yo="22" id="10066284" name="inst_3B2C414B" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2266" y="462" w="22" h="22" xo="0" yo="22" id="10066285" name="inst_A1F69588" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2332" y="462" w="22" h="22" xo="0" yo="22" id="10066288" name="inst_79646A11" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2354" y="462" w="22" h="22" xo="0" yo="22" id="10066289" name="inst_88599496" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2376" y="462" w="22" h="22" xo="0" yo="22" id="10066290" name="inst_921402A1" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2398" y="462" w="22" h="22" xo="0" yo="22" id="10066291" name="inst_713614EE" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2420" y="462" w="22" h="22" xo="0" yo="22" id="10066292" name="inst_1BE92A06" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2442" y="462" w="22" h="22" xo="0" yo="22" id="10066293" name="inst_5FD67564" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2464" y="462" w="22" h="22" xo="0" yo="22" id="10066294" name="inst_E4B5B6AE" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2486" y="462" w="22" h="22" xo="0" yo="22" id="10066295" name="inst_CAD8BFED" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2508" y="462" w="22" h="22" xo="0" yo="22" id="10066296" name="inst_936A0D66" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2530" y="462" w="22" h="22" xo="0" yo="22" id="10066297" name="inst_78C9C581" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2552" y="462" w="22" h="22" xo="0" yo="22" id="10066298" name="inst_E35B1A1C" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2288" y="473" w="22" h="22" xo="22" yo="22" id="10066301" name="inst_DE0F1574" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2310" y="473" w="22" h="22" xo="22" yo="22" id="10066302" name="inst_8295AE68" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2288" y="462" w="22" h="22" xo="22" yo="22" id="10066305" name="inst_FBEEC8D6" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2310" y="462" w="22" h="22" xo="22" yo="22" id="10066306" name="inst_A2A51E3A" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2266" y="286" w="22" h="22" xo="0" yo="22" id="10066342" name="inst_6E11BFD9" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2288" y="286" w="22" h="22" xo="0" yo="22" id="10066343" name="inst_A51E37F5" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2310" y="286" w="22" h="22" xo="0" yo="22" id="10066344" name="inst_4E90AAA4" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2332" y="286" w="22" h="22" xo="0" yo="22" id="10066345" name="inst_241938A2" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2244" y="286" w="22" h="22" xo="0" yo="22" id="10066346" name="inst_CCA73E08" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2266" y="308" w="22" h="22" xo="22" yo="22" id="10066347" name="inst_145AAC99" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2310" y="308" w="22" h="22" xo="22" yo="22" id="10066348" name="inst_B641875B" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2288" y="253" w="22" h="22" xo="88" yo="22" id="10066351" name="inst_CB0F7D10" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2343" y="253" w="22" h="22" xo="88" yo="22" id="10066353" name="inst_D28DACBD" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2332" y="253" w="22" h="22" xo="88" yo="22" id="10066354" name="inst_878D622D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2233" y="275" w="22" h="22" xo="88" yo="22" id="10066356" name="inst_81C5FD50" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2211" y="253" w="22" h="22" xo="88" yo="22" id="10066357" name="inst_0A07BBDE" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2266" y="264" w="22" h="22" xo="88" yo="22" id="10066359" name="inst_C864FCA8" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2266" y="253" w="22" h="22" xo="88" yo="22" id="10066360" name="inst_B372E48E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2310" y="253" w="22" h="22" xo="88" yo="22" id="10066361" name="inst_AAE21737" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2233" y="264" w="22" h="22" xo="88" yo="22" id="10066362" name="inst_E5731C86" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3575" y="242" w="22" h="22" xo="88" yo="22" id="10066427" name="inst_36FC2659" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3586" y="231" w="22" h="22" xo="88" yo="22" id="10066430" name="inst_079E54D8" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3608" y="242" w="22" h="22" xo="88" yo="22" id="10066431" name="inst_251EF178" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3630" y="253" w="22" h="22" xo="88" yo="22" id="10066432" name="inst_80F07517" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3641" y="242" w="22" h="22" xo="88" yo="22" id="10066433" name="inst_3B4C84E0" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3696" y="242" w="22" h="22" xo="88" yo="22" id="10066435" name="inst_C541A221" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3718" y="242" w="22" h="22" xo="88" yo="22" id="10066436" name="inst_155BD137" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3740" y="242" w="22" h="22" xo="88" yo="22" id="10066437" name="inst_5FB92E3D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3762" y="242" w="22" h="22" xo="88" yo="22" id="10066438" name="inst_3634D8FE" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3784" y="242" w="22" h="22" xo="88" yo="22" id="10066439" name="inst_59437474" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3806" y="242" w="22" h="22" xo="88" yo="22" id="10066440" name="inst_A007DC14" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3828" y="242" w="22" h="22" xo="88" yo="22" id="10066441" name="inst_197DCE93" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3685" y="242" w="22" h="22" xo="88" yo="22" id="10066442" name="inst_D5F7D3A3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3663" y="242" w="22" h="22" xo="88" yo="22" id="10066443" name="inst_CA80F37A" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3894" y="231" w="22" h="22" xo="0" yo="0" id="10066444" name="inst_781DC21A" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3916" y="231" w="22" h="22" xo="0" yo="0" id="10066446" name="inst_4803BADB" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3938" y="231" w="22" h="22" xo="0" yo="0" id="10066447" name="inst_343101D3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3916" y="253" w="22" h="22" xo="66" yo="0" id="10066448" name="inst_65CE536E" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3916" y="275" w="22" h="22" xo="66" yo="0" id="10066449" name="inst_43E87482" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3916" y="297" w="22" h="22" xo="66" yo="0" id="10066450" name="inst_60226E51" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3916" y="319" w="22" h="22" xo="66" yo="0" id="10066451" name="inst_8A19AEDB" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3916" y="341" w="22" h="22" xo="66" yo="0" id="10066452" name="inst_75561972" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3916" y="363" w="22" h="22" xo="66" yo="0" id="10066453" name="inst_405B06D3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3916" y="385" w="22" h="22" xo="66" yo="0" id="10066454" name="inst_49BF9143" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="3916" y="407" w="22" h="22" xo="66" yo="0" id="10066455" name="inst_542B63F9" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="0" y="264" w="22" h="22" xo="0" yo="0" id="10047345" name="inst_86C0799B" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="594" y="264" w="22" h="22" xo="0" yo="0" id="10047358" name="inst_7574C0C1" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="1034" y="264" w="22" h="22" xo="0" yo="0" id="10047373" name="inst_9CF69732" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -2584,7 +2641,6 @@
     <tile bgName="Til_swamp" x="1892" y="396" w="22" h="22" xo="0" yo="0" id="10047457" name="inst_F3A72125" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="1914" y="396" w="22" h="22" xo="0" yo="0" id="10047458" name="inst_4B65B816" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="1936" y="396" w="22" h="22" xo="0" yo="0" id="10047459" name="inst_13D9A30D" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2244" y="242" w="22" h="22" xo="0" yo="0" id="10047460" name="inst_F90752A1" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2574" y="418" w="22" h="22" xo="0" yo="0" id="10047465" name="inst_FC1EA62B" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2596" y="418" w="22" h="22" xo="0" yo="0" id="10047466" name="inst_EED73F0C" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2618" y="418" w="22" h="22" xo="0" yo="0" id="10047467" name="inst_C4AA792A" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -2846,11 +2902,6 @@
     <tile bgName="Til_swamp" x="1540" y="242" w="22" h="22" xo="0" yo="22" id="10048091" name="inst_04CD8469" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="1562" y="242" w="22" h="22" xo="0" yo="22" id="10048092" name="inst_B9BA55CB" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="1584" y="242" w="22" h="22" xo="0" yo="22" id="10048093" name="inst_48C21B09" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2244" y="242" w="22" h="22" xo="0" yo="22" id="10048094" name="inst_E8F8083D" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2266" y="242" w="22" h="22" xo="0" yo="22" id="10048095" name="inst_F36DE2C1" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2288" y="242" w="22" h="22" xo="0" yo="22" id="10048096" name="inst_727C1CBB" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2310" y="242" w="22" h="22" xo="0" yo="22" id="10048097" name="inst_A5855632" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="2332" y="242" w="22" h="22" xo="0" yo="22" id="10048098" name="inst_8F9D9D9F" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2640" y="242" w="22" h="22" xo="0" yo="22" id="10048099" name="inst_68CB0D1F" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2662" y="242" w="22" h="22" xo="0" yo="22" id="10048100" name="inst_DE17165B" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="2684" y="242" w="22" h="22" xo="0" yo="22" id="10048101" name="inst_B90AABEE" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -2870,15 +2921,6 @@
     <tile bgName="Til_swamp" x="3124" y="242" w="22" h="22" xo="0" yo="22" id="10048115" name="inst_28CBC245" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3146" y="242" w="22" h="22" xo="0" yo="22" id="10048116" name="inst_868EAEB6" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3168" y="242" w="22" h="22" xo="0" yo="22" id="10048117" name="inst_854E80DB" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3652" y="220" w="22" h="22" xo="0" yo="22" id="10048119" name="inst_F0E15D68" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3674" y="220" w="22" h="22" xo="0" yo="22" id="10048120" name="inst_3B7E4348" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3696" y="220" w="22" h="22" xo="0" yo="22" id="10048121" name="inst_F5CB98BF" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3718" y="220" w="22" h="22" xo="0" yo="22" id="10048122" name="inst_22558520" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3740" y="220" w="22" h="22" xo="0" yo="22" id="10048123" name="inst_2850A61A" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3762" y="220" w="22" h="22" xo="0" yo="22" id="10048124" name="inst_3A7BA6FD" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3784" y="220" w="22" h="22" xo="0" yo="22" id="10048125" name="inst_05A2B322" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3806" y="220" w="22" h="22" xo="0" yo="22" id="10048126" name="inst_81E7CF0C" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Til_swamp" x="3828" y="220" w="22" h="22" xo="0" yo="22" id="10048127" name="inst_0D88369B" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="4004" y="198" w="22" h="22" xo="0" yo="22" id="10048128" name="inst_5E012C12" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="4026" y="198" w="22" h="22" xo="0" yo="22" id="10048129" name="inst_8E365B77" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="4048" y="198" w="22" h="22" xo="0" yo="22" id="10048130" name="inst_EBB57072" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -3016,6 +3058,72 @@
     <tile bgName="Til_swamp" x="3190" y="22" w="22" h="22" xo="22" yo="0" id="10050621" name="inst_F0EB16D9" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3168" y="22" w="22" h="22" xo="22" yo="0" id="10050622" name="inst_D454A221" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Til_swamp" x="3146" y="22" w="22" h="22" xo="22" yo="0" id="10050623" name="inst_BB737880" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2310" y="462" w="22" h="22" xo="0" yo="22" id="10066303" name="inst_223C946B" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2288" y="462" w="22" h="22" xo="0" yo="22" id="10066304" name="inst_2911A242" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="484" w="22" h="22" xo="66" yo="0" id="10066307" name="inst_F24CAD02" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="506" w="22" h="22" xo="66" yo="0" id="10066313" name="inst_3B4642B9" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="528" w="22" h="22" xo="66" yo="0" id="10066314" name="inst_B7696706" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="550" w="22" h="22" xo="66" yo="0" id="10066315" name="inst_A7434F7A" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="572" w="22" h="22" xo="66" yo="0" id="10066316" name="inst_3B23A003" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="594" w="22" h="22" xo="66" yo="0" id="10066317" name="inst_13679233" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="616" w="22" h="22" xo="66" yo="0" id="10066318" name="inst_E1C2D8DA" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="638" w="22" h="22" xo="66" yo="0" id="10066319" name="inst_0FB5F77B" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="660" w="22" h="22" xo="66" yo="0" id="10066320" name="inst_8E0F9B6B" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="682" w="22" h="22" xo="66" yo="0" id="10066321" name="inst_B02B1130" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2068" y="704" w="22" h="22" xo="66" yo="0" id="10066322" name="inst_9B4008BB" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="484" w="22" h="22" xo="66" yo="0" id="10066323" name="inst_5AF0CBF6" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="506" w="22" h="22" xo="66" yo="0" id="10066324" name="inst_84C4E95C" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="528" w="22" h="22" xo="66" yo="0" id="10066325" name="inst_911680EA" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="550" w="22" h="22" xo="66" yo="0" id="10066326" name="inst_797B4A40" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="572" w="22" h="22" xo="66" yo="0" id="10066327" name="inst_F4E90192" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="594" w="22" h="22" xo="66" yo="0" id="10066328" name="inst_6050E2DE" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="616" w="22" h="22" xo="66" yo="0" id="10066329" name="inst_FCBC974C" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="638" w="22" h="22" xo="66" yo="0" id="10066330" name="inst_2BF4D598" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="660" w="22" h="22" xo="66" yo="0" id="10066331" name="inst_C1729B8D" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="682" w="22" h="22" xo="66" yo="0" id="10066332" name="inst_16AF0A0A" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="693" w="22" h="22" xo="66" yo="0" id="10066333" name="inst_944088B1" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_fortress" x="2431" y="715" w="22" h="22" xo="66" yo="0" id="10066334" name="inst_955C155C" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2288" y="253" w="22" h="22" xo="88" yo="22" id="10066364" name="inst_3099272C" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2321" y="264" w="22" h="22" xo="88" yo="22" id="10066365" name="inst_19DF2AB8" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2343" y="253" w="22" h="22" xo="88" yo="22" id="10066366" name="inst_647C9E6A" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2332" y="253" w="22" h="22" xo="88" yo="22" id="10066367" name="inst_646A5968" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2321" y="253" w="22" h="22" xo="88" yo="22" id="10066368" name="inst_62E8C9AD" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2310" y="253" w="22" h="22" xo="88" yo="22" id="10066369" name="inst_41A99986" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2266" y="253" w="22" h="22" xo="88" yo="22" id="10066370" name="inst_8DFB8103" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2277" y="242" w="22" h="22" xo="88" yo="22" id="10066371" name="inst_8A90EDD9" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2244" y="242" w="22" h="22" xo="88" yo="22" id="10066372" name="inst_1378C585" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="2233" y="242" w="22" h="22" xo="88" yo="22" id="10066373" name="inst_C447E741" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3564" y="253" w="22" h="22" xo="0" yo="22" id="10066374" name="inst_46687382" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3586" y="253" w="22" h="22" xo="0" yo="22" id="10066375" name="inst_484A4713" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3608" y="253" w="22" h="22" xo="0" yo="22" id="10066376" name="inst_6CAE8029" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3630" y="253" w="22" h="22" xo="0" yo="22" id="10066377" name="inst_8B4CC433" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3652" y="253" w="22" h="22" xo="0" yo="22" id="10066378" name="inst_14F5250C" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3674" y="253" w="22" h="22" xo="0" yo="22" id="10066379" name="inst_2FE7444E" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3696" y="253" w="22" h="22" xo="0" yo="22" id="10066380" name="inst_66062961" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3718" y="253" w="22" h="22" xo="0" yo="22" id="10066381" name="inst_BCE31BF2" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3740" y="253" w="22" h="22" xo="0" yo="22" id="10066382" name="inst_8F3A4B9A" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3762" y="253" w="22" h="22" xo="0" yo="22" id="10066383" name="inst_62A14FDB" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3784" y="253" w="22" h="22" xo="0" yo="22" id="10066384" name="inst_12911432" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3806" y="253" w="22" h="22" xo="0" yo="22" id="10066385" name="inst_93A5736C" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3828" y="253" w="22" h="22" xo="0" yo="22" id="10066386" name="inst_E3DC2B6B" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3564" y="242" w="22" h="22" xo="88" yo="22" id="10066396" name="inst_8613F3DE" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3608" y="242" w="22" h="22" xo="88" yo="22" id="10066398" name="inst_5860586F" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3597" y="242" w="22" h="22" xo="88" yo="22" id="10066399" name="inst_2F9D8722" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3685" y="231" w="22" h="22" xo="88" yo="22" id="10066405" name="inst_2F49632C" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3762" y="242" w="22" h="22" xo="88" yo="22" id="10066407" name="inst_E65E3077" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3828" y="231" w="22" h="22" xo="88" yo="22" id="10066409" name="inst_AEC377C5" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3817" y="231" w="22" h="22" xo="88" yo="22" id="10066410" name="inst_63B7640A" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3795" y="231" w="22" h="22" xo="88" yo="22" id="10066411" name="inst_B5E269B6" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3762" y="231" w="22" h="22" xo="88" yo="22" id="10066412" name="inst_36D2BFC6" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3740" y="231" w="22" h="22" xo="88" yo="22" id="10066413" name="inst_2A694D94" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3718" y="231" w="22" h="22" xo="88" yo="22" id="10066414" name="inst_113B3520" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3663" y="231" w="22" h="22" xo="88" yo="22" id="10066415" name="inst_1831F5A7" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3619" y="231" w="22" h="22" xo="88" yo="22" id="10066416" name="inst_0422D74F" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3597" y="231" w="22" h="22" xo="88" yo="22" id="10066417" name="inst_FDDF8F2F" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3564" y="231" w="22" h="22" xo="88" yo="22" id="10066418" name="inst_BCE4D268" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3564" y="220" w="22" h="22" xo="88" yo="22" id="10066419" name="inst_EB0DF341" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3586" y="220" w="22" h="22" xo="88" yo="22" id="10066420" name="inst_FE397947" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Til_swamp" x="3641" y="231" w="22" h="22" xo="88" yo="22" id="10066421" name="inst_33C04879" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
